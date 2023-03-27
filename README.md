@@ -3,6 +3,7 @@
 Repositório contendo os projetos realizados na 2a edição da Imersão Java da Alura.
 
 ## Cronograma
+
 Aula 1 - Consumindo uma API de filmes com Java
 Aula 2 - Gerando figurinhas para WhatsApp
 Aula 3 - Ligando as pontas, refatoração e orientação a objetos
