@@ -31,37 +31,18 @@ public class App {
             var movieRate = Float.parseFloat(filme.get("imDbRating"));
             String stars = " ";
 
+
             switch ((int) movieRate) {
-                case 10:
-                    stars += "⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐";
-                    break;
-                case 9:
-                    stars += "⭐⭐⭐⭐⭐⭐⭐⭐⭐";
-                    break;
-                case 8:
-                    stars += "⭐⭐⭐⭐⭐⭐⭐⭐";
-                    break;
-                case 7:
-                    stars += "⭐⭐⭐⭐⭐⭐⭐";
-                    break;
-                case 6:
-                    stars += "⭐⭐⭐⭐⭐⭐";
-                    break;
-                case 5:
-                    stars += "⭐⭐⭐⭐⭐";
-                    break;
-                case 4:
-                    stars += "⭐⭐⭐⭐";
-                    break;
-                case 3:
-                    stars += "⭐⭐⭐";
-                    break;
-                case 2:
-                    stars += "⭐⭐";
-                    break;
-                case 1:
-                    stars += "⭐";
-                    break;
+                case 10 -> stars += "⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐";
+                case 9 -> stars += "⭐⭐⭐⭐⭐⭐⭐⭐⭐";
+                case 8 -> stars += "⭐⭐⭐⭐⭐⭐⭐⭐";
+                case 7 -> stars += "⭐⭐⭐⭐⭐⭐⭐";
+                case 6 -> stars += "⭐⭐⭐⭐⭐⭐";
+                case 5 -> stars += "⭐⭐⭐⭐⭐";
+                case 4 -> stars += "⭐⭐⭐⭐";
+                case 3 -> stars += "⭐⭐⭐";
+                case 2 -> stars += "⭐⭐";
+                case 1 -> stars += "⭐";
             }
             System.out.println(ANSI_PURPLE+"Rating: " + (int)movieRate + stars +" " + ANSI_RESET);
         }
