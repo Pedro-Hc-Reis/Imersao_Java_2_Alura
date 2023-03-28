@@ -20,3 +20,11 @@ Com o pacote `java.net.http` foram realizados:
 2. A extração dos dados com uma classe própria disponibilizada em aula.
 3. A impressão em tela dos seguintes dados do sfilmes: título, imagem, pontuação.
 4. Com o desafio proposto pelos mentores foi refatorada a pontuação de modo a possuir um melhor layout com cores e emojis.
+
+### Aula 2 -> imdb-api
+
+Nessa aula foi utilizada a API pública do site IMDB com o endpoint localizados no arquivo `Links.txt`.
+<br>
+Foram realizados:
+1. A importação de imagens(arquivo local ou url), as transformando em uma nova imagem .png com um texto em fundo transparente.
+2. Gerador de Stickers - Classe geradora de Stickers para WhatsApp.
