@@ -21,9 +21,9 @@ Com o pacote `java.net.http` foram realizados:
 3. A impressão em tela dos seguintes dados do sfilmes: título, imagem, pontuação.
 4. Com o desafio proposto pelos mentores foi refatorada a pontuação de modo a possuir um melhor layout com cores e emojis.
 
-### Aula 2 -> imdb-api
+### Aula 2 -> Gerando stickers
 
-Nessa aula foi utilizada a API pública do site IMDB com o endpoint localizados no arquivo `Links.txt`.
+Nessa aula foi desenvolvida uma nova classe para gerar stickers (para whatsapp, telegram etc) a partir dos pôsters dos filmes recuperados via api da Aula 1.
 <br>
 Foram realizados:
 1. A importação de imagens(arquivo local ou url), as transformando em uma nova imagem .png com um texto em fundo transparente.
