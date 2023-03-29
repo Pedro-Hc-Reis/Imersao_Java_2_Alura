@@ -39,4 +39,4 @@ O código foi refatorado com o objetivo de simplificar e ampliar a utilidade da 
   <img src="https://raw.githubusercontent.com/Lukasveiga/ImersaoAluraJava/main/resultados/fluxo.png" alt="Fluxo Aplicação" width="750" height="300">
 </p>
 
-* Dessa forma foi possível flexibilizar e reutilizar o código na geração de figurinhas de API's diferentes das que foram utilizadas nos dias anteriores. Como exemplo a [API da Nasa](https://github.com/nasa/apod-api) que fornece diferentes imagens relacionadas a astronomia.
+* Dessa forma foi possível flexibilizar e reutilizar o código na geração de figurinhas de API's diferentes das que foram utilizadas nos dias anteriores. Como exemplo a API da Nasa que fornece diferentes imagens relacionadas a astronomia.
