@@ -36,7 +36,7 @@ O código foi refatorado com o objetivo de simplificar e ampliar a utilidade da 
 * No fluxo da aplicação temos a classe `App` que requisita a url da API por meio de uma chave String para a classe `ApiProperties`; com a url em mãos é possível solicitar a interface `Model` a lista de conteúdos, onde é feito a requisição do JSON a classe `ClientHttp` e a própria interface realiza a desserialização e retorna uma lista de conteúdos. Por fim, a classe `App` utiliza os métodos da classe `StickGenerator` passando o conteúdo e que retorna a figurinha com a menssagem desejada.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Lukasveiga/ImersaoAluraJava/main/resultados/fluxo.png" alt="Fluxo Aplicação" width="750" height="300">
+  <img src="https://github.com/Pedro-Hc-Reis/Imersao_Java_2_Alura/blob/main/Resultados/fluxo.png?raw=true" alt="Fluxo Aplicação" width="750" height="300">
 </p>
 
 * Dessa forma foi possível flexibilizar e reutilizar o código na geração de figurinhas de API's diferentes das que foram utilizadas nos dias anteriores. Como exemplo a API da Nasa que fornece diferentes imagens relacionadas a astronomia.
