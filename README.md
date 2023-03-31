@@ -43,7 +43,7 @@ O código foi refatorado com o objetivo de simplificar e ampliar a utilidade da 
 * Dessa forma foi possível flexibilizar e reutilizar o código na geração de figurinhas de API's diferentes das que foram utilizadas nos dias anteriores. Como exemplo a API da Nasa que fornece diferentes imagens relacionadas a astronomia.
 
 
-### Aula 4 -> 
+### Aula 4 -> Criando nossa própria API com Spring.
 
 * Nas atividades do quarto dia foi desenvolvida uma API com `Spring Boot` e `MongoDB` contendo logos de linguagens de programação, podendo ser acessada no repositório [Imersão Alura Java_: API de Langs](https://github.com/Lukasveiga/ImersaoAluraLangApi).
 * E por fim foram geradas figurinhas com as imagens extraídas da API seguindo o mesmo modelo dos exemplos anteriores.
