@@ -29,9 +29,10 @@ Foram realizados:
 1. A importação de imagens(arquivo local ou url), as transformando em uma nova imagem .png com um texto em fundo transparente.
 2. Gerador de Stickers - Classe geradora de Stickers para WhatsApp.
 
-### Aula 3 -> 
+### Aula 3 -> Ligando as pontas, refatoração e orientação a objetos
 
 O código foi refatorado com o objetivo de simplificar e ampliar a utilidade da aplicação utilizando os pilares da programação orientada a objetos como o polimorfismo.
+<br>
 * Para isso foram implementadas ferramentas do Java como as `Interfaces`, `Record's` e os `Generics`.  
 * No fluxo da aplicação temos a classe `App` que requisita a url da API por meio de uma chave String para a classe `ApiProperties`; com a url em mãos é possível solicitar a interface `Model` a lista de conteúdos, onde é feito a requisição do JSON a classe `ClientHttp` e a própria interface realiza a desserialização e retorna uma lista de conteúdos. Por fim, a classe `App` utiliza os métodos da classe `StickGenerator` passando o conteúdo e que retorna a figurinha com a menssagem desejada.
 
